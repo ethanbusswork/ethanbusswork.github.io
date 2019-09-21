@@ -193,14 +193,14 @@ img {
 
 /* Center align element hover effect */
 center:hover {
-	transition: transform 2s ease-in-out;
+	transition: transform 2s;
 	transform: scale(1.1);
 }
 
 /* Paragraph element hover effect */
 p:hover {
 	color: #00004d;	
-    transition: transform 1s ease-in-out;
+    transition: transform 1s;
 	transform: scale(1.01);
 }
 
@@ -212,7 +212,7 @@ h1:hover {
 
 /* Image element hover effects */
 img:hover {
-    transition: transform 1s ease-in-out;
+    transition: transform 1s;
 	transform: scale(1.1);
 }
 
