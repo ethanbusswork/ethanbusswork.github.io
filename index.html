@@ -18,6 +18,7 @@
 		<a class="active" href="#Home">Home</a>
 		<a href="#About">About</a>
 		<a href="#GitHub">GitHub</a>
+		<a href="#Gallery">Gallery</a>
 		<a href="#Contact">Contact</a>
 	</div>
 
@@ -62,12 +63,13 @@
 		<div class="Column_1a">
 			<!-- Right column -->
 			<h1>About</h1>
-				<center><p>
-					My dream was always to enter the US Military as a Marine. Even when my lungs collapsed twice, 
-					I still worked at it to pass the entrance physical. Unfortunately I was denied from service 
-					during my senior year. Plan A out the window, time to find something new. I've always been 
-					relatively proficient with computers. So when the opportunity to study software development 
-					came up, I took it. Now I'm studying at The Tech Academy for proficency in HTML5, CSS3, 
+			<center>
+				<p>
+					My dream was always to enter the US Military as a Marine. Even when my lungs collapsed twice,
+					I still worked at it to pass the entrance physical. Unfortunately I was denied from service
+					during my senior year. Plan A out the window, time to find something new. I've always been
+					relatively proficient with computers. So when the opportunity to study software development
+					came up, I took it. Now I'm studying at The Tech Academy for proficency in HTML5, CSS3,
 					JavaScript, Python, C#, and SQL. Can't wait to finish, it's been amazing so far.
 					<br><br>
 					Graduated from Rainier Junior Senior High School in 2019.
@@ -75,7 +77,8 @@
 					Started Scholl at The Tech Academy in Sept. of 2019.
 					<br>
 					Currently studying software development.
-				</p></center>
+				</p>
+			</center>
 		</div>
 		<div class="Column_2a">
 			<!-- Left column -->
@@ -88,10 +91,16 @@
 		<div class="Column_1b">
 			<!-- Left column -->
 			<h1>GitHub</h1>
-			<center><p><h2>You can view my coding projects on my GitHub profile here:</center>
-				<center><a href="https://github.com/ethanbusswork" target="_blank"><h2>ethanbusswork</h2></a>
-				</center>
-			</h2></p>
+			<center>
+				<p>
+					<h2>You can view my coding projects on my GitHub profile here:
+			</center>
+			<center><a href="https://github.com/ethanbusswork" target="_blank">
+					<h2>ethanbusswork</h2>
+				</a>
+			</center>
+			</h2>
+			</p>
 		</div>
 
 		<div class="Column_2b">
@@ -101,18 +110,52 @@
 		</div>
 	</div>
 
+	<!--Slideshow Container-->
+	<div class="gallery_img" id="Gallery">
+		<br>
+		<div class="text_bubble">
+			<h1>Graphic Design Work</h1>
+		</div>
+		<br>
+		<div class="slideshow-container">
+			<div class="mySlides fade">
+				<div class="numbertext">1 / 1</div>
+				<img class="gallery_img_size" src="./Stylesheet/Images/paintItBlackFinished.png" style="width:100%">
+				<div class="text">Paint it Black graphic design</div>
+			</div>
+
+
+			<!--Next/Previous Buttons-->
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+		<br>
+
+		<!--Dots/Circles-->
+		<div style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+		</div>
+	</div>
+
+	<script src="./Stylesheet/main_page.js"></script>
+
 	<!--Contact section-->
 	<div class="Row3" id="Contact">
 		<div class="Column_1a">
 			<!-- Right column -->
 			<h1>Contact Me</h1>
-			<center><p><h2>
-				Email: ethanbuss.work@gmail.com 
-				<br>
-				Cell: 503-369-9427
-				<br>
-				LinkedIn: <a href="https://www.linkedin.com/in/ethan-buss-7b1280193/" target="_blank">Ethan Buss</a>
-			</h2></p></center>
+			<center>
+				<p>
+					<h2>
+						Email: ethanbuss.work@gmail.com
+						<br>
+						Cell: 503-369-9427
+						<br>
+						LinkedIn: <a href="https://www.linkedin.com/in/ethan-buss-7b1280193/" target="_blank">Ethan
+							Buss</a>
+					</h2>
+				</p>
+			</center>
 		</div>
 		<div class="Column_2a">
 			<!-- Left column -->
@@ -123,8 +166,8 @@
 
 	<!-- Footer section -->
 	<footer>
-			<center>&copy Ethan Buss
-			</center>
+		<center>&copy Ethan Buss
+		</center>
 	</footer>
 
 </body>
