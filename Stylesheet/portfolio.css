@@ -207,7 +207,7 @@ p:hover {
 /* Heading 1 element hover effect */
 h1:hover {
 	color: black;
-	font-weight: normal; /* Makes the text no longer bold when hovered over */ 
+	font-weight: normal; 
 }
 
 /* Image element hover effects */
