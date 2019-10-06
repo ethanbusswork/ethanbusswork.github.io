@@ -63,7 +63,7 @@ body {
 .Column_1a {
 	float: left;  
 	width: 50%; /* This ensures one column takes up half the page width */
-	padding-top: 1%; /* This ensures there is space between the top of the column and our headings */
+	padding-top: 0%; /* This ensures there is space between the top of the column and our headings */
 	height: 400px; /* This sets the height of our column at 400 pixels - if you change the text within the columns, you will need to adjust the column heights accordingly */
 	background-color: #f2f2f294; 
 	border-radius: 0 100px 100px 0;
@@ -87,7 +87,7 @@ body {
 	float: left;  
 	width: 50%; /* This ensures one column takes up half the page width */
 	padding: 10px; 
-	padding-top: 4%; /* This ensures there is space between the top of the column and our headings */
+	padding-top: 0%; /* This ensures there is space between the top of the column and our headings */
 	height: 400px; /* This sets the height of our column at 400 pixels - if you change the text within the columns, you will need to adjust the column heights accordingly */
 	background-color: #f2f2f294; 
 	border-radius: 100px 0 0 100px;
