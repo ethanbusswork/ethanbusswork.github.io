@@ -235,22 +235,23 @@ footer {
 	width: 100%;
 	padding: 10px;
 	padding-top: 1.9%;
-	height: 800px;
+	height: 822px;
 	background-color: #002791c2;
 }
 
 .gallery_img_size {
 	height: 600px;
-	width: 600px;
+	width: auto;
 }
 
 * {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 600px;
+  max-width: 1066px;
   position: relative;
   margin: auto;
+  text-align: center;
 }
 
 /* Hide the images by default */
@@ -261,7 +262,7 @@ footer {
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
-  position: absolute;
+  position: relative;
   top: 50%;
   width: auto;
   margin-top: -22px;
@@ -272,6 +273,14 @@ footer {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+}
+
+.prev {
+	float: left;
+}
+
+.next {
+	float: right;
 }
 
 /* Position the "next button" to the right */
@@ -301,7 +310,7 @@ footer {
   color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
-  position: absolute;
+  position: relative;
   top: 0;
 }
 
@@ -311,14 +320,14 @@ footer {
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: rgb(131, 131, 131);
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #bbb;
 }
 
 /* Fading animation */
