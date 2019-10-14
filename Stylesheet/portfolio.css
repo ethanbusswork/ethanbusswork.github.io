@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+  }
+
 /* Body */
 body {
 	margin: 0%; /* This ensures our site displays all the way to the edge of the browser screen */
@@ -52,7 +56,7 @@ body {
 	color: white; 
 	width: 100%;
 	padding: 20px; /* This adds padding around the text so that the background goes slightly beyond the text */
-	margin-top: 33%;
+	margin-top: 16%;
 }
 
 /* Table - this section covers the styling of the columns and rows within our table */
@@ -165,12 +169,18 @@ q {
 	font-weight: bold;
 }
 
+
+
 /* Image elements */
 img {
     border-radius: 8px; /* This causes our images to have slightly rounded edges */
     height: 300px; 
 	margin-left: auto; /* This in combination with margin-right: auto centers our images */
 	margin-right: auto;
+}
+
+#headshot {
+	text-align: center;
 }
 
 .Row1 img {
