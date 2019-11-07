@@ -224,7 +224,8 @@ img {
 }
 
 .skillsDiv {
-	margin-left: 235px;
+	margin: 0 auto;
+	width: 500px;
 }
 
 .skills {
