@@ -219,29 +219,25 @@ q {
 /* Image elements */
 img {
     border-radius: 8px; /* This causes our images to have slightly rounded edges */
-    height: 300px; 
 	margin-left: auto; /* This in combination with margin-right: auto centers our images */
 	margin-right: auto;
 }
+
+.skillsDiv {
+	margin-left: 235px;
+}
+
+.skills {
+	float: left;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
 
 #headshot {
 	text-align: center;
 }
 
-.Row1 img {
-	margin-left: 62%;
-	margin-top: 18px;
-}
-
-.Row2 img {
-	margin-left: 16%;
-	margin-top: 17px;
-}
-
-.Row3 img {
-	margin-left: 55%;
-	margin-top: 30px;
-}
 
 /* Center align element hover effect */
 center:hover {
